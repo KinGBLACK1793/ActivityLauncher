@@ -33,10 +33,10 @@ import androidx.appcompat.app.AlertDialog;
 import java.util.Objects;
 
 
-import de.szalkowski.activitylauncher.object.MyActivityInfo;
-import de.szalkowski.activitylauncher.object.MyPackageInfo;
-import de.szalkowski.activitylauncher.R;
-import de.szalkowski.activitylauncher.util.Signer;
+import de.szalkowski.activitylauncher.rustore_fork.object.MyActivityInfo;
+import de.szalkowski.activitylauncher.rustore_fork.object.MyPackageInfo;
+import de.szalkowski.activitylauncher.rustore_fork.R;
+import de.szalkowski.activitylauncher.rustore_fork.util.Signer;
 
 public class IconCreator {
 

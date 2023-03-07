@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.szalkowski.activitylauncher.R;
+import de.szalkowski.activitylauncher.rustore_fork.R;
 
 public class Launcher {
     /**
