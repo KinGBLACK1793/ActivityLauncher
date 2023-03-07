@@ -24,6 +24,7 @@ import org.thirdparty.IconCreator;
 
 import java.util.Objects;
 
+import de.szalkowski.activitylauncher.constant.Constants;
 import de.szalkowski.activitylauncher.util.IconLoader;
 import de.szalkowski.activitylauncher.R;
 import de.szalkowski.activitylauncher.util.SettingsUtils;
@@ -42,7 +43,7 @@ public class ShortcutEditDialogFragment extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         ComponentName activity = requireArguments().getParcelable("activity");
         final PackageManager pm = requireActivity().getPackageManager();
-        Configuration locale = SettingsUtils.createLocaleConfiguration(PreferenceManager.getDefaultSharedPreferences(requireContext()).getString("language", "System Default"));
+        Configuration locale = SettingsUtils.createLocaleConfiguration(PreferenceManager.getDefaultSharedPreferences(requireContext()).getString(Constants.PREF_LANGUAGE, Constants.DEFAULT_LANGUAGE));
         this.activity = MyActivityInfo.fromComponentName(pm, activity, locale);
         this.loader = new IconLoader(requireContext());
 

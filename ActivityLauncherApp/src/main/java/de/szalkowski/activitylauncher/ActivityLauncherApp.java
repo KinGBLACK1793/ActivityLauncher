@@ -23,7 +23,7 @@ public class ActivityLauncherApp extends Application {
         }
 
         if (!prefs.contains(Constants.PREF_LANGUAGE)) {
-            prefs.edit().putString(Constants.PREF_LANGUAGE, "System Default").apply();
+            prefs.edit().putString(Constants.PREF_LANGUAGE, Constants.DEFAULT_LANGUAGE).apply();
         }
     }
 }

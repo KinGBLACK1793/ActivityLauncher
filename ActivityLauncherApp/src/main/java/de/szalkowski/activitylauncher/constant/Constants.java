@@ -1,6 +1,8 @@
 package de.szalkowski.activitylauncher.constant;
 
 public class Constants {
+    public static final String DEFAULT_LANGUAGE = "System Default";
+
     public static final String PREF_HIDE_PRIVATE = "hide_private";
     public static final String PREF_ALLOW_ROOT = "allow_root";
     public static final String PREF_THEME = "theme";

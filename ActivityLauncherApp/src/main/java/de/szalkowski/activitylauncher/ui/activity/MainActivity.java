@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity {
 
         this.prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 
-        this.localeString = prefs.getString(Constants.PREF_LANGUAGE, "System Default");
+        this.localeString = prefs.getString(Constants.PREF_LANGUAGE, Constants.DEFAULT_LANGUAGE);
         Configuration config = SettingsUtils.createLocaleConfiguration(this.localeString);
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
@@ -128,7 +128,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (!this.localeString.equals(this.prefs.getString("language", "System Default"))) {
+        if (!this.localeString.equals(this.prefs.getString(Constants.PREF_LANGUAGE, Constants.DEFAULT_LANGUAGE))) {
             recreateFragments();
         }
         updateFilter(this.filter);

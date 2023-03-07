@@ -89,7 +89,7 @@ public class SettingsActivity extends BaseActivity {
         private boolean onLanguageUpdated(String newValue) {
             this.prefs.edit().putString(Constants.PREF_LANGUAGE, newValue).apply();
             Configuration config;
-            if (newValue.equals("System Default")) {
+            if (newValue.equals(Constants.DEFAULT_LANGUAGE)) {
                 config = SettingsUtils.createLocaleConfiguration(Resources.getSystem().getConfiguration().locale.toString());
             } else {
                 config = SettingsUtils.createLocaleConfiguration(newValue);

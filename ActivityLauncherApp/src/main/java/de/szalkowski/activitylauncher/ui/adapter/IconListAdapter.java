@@ -43,7 +43,7 @@ public class IconListAdapter extends BaseAdapter {
     public void resolve(IconListAsyncProvider.Updater updater) {
         TreeSet<String> icons = new TreeSet<>();
         List<PackageInfo> all_packages = this.pm.getInstalledPackages(0);
-        Configuration locale = SettingsUtils.createLocaleConfiguration(prefs.getString(Constants.PREF_LANGUAGE, "System Default"));
+        Configuration locale = SettingsUtils.createLocaleConfiguration(prefs.getString(Constants.PREF_LANGUAGE, Constants.DEFAULT_LANGUAGE));
         updater.updateMax(all_packages.size());
         updater.update(0);
 

@@ -47,7 +47,7 @@ public class AllTasksListAdapter extends BaseExpandableListAdapter implements Fi
     public void resolve(AllTasksListAsyncProvider.Updater updater) {
         PackageManagerCache cache = PackageManagerCache.getPackageManagerCache(this.pm);
         List<PackageInfo> all_packages = this.pm.getInstalledPackages(0);
-        Configuration locale = SettingsUtils.createLocaleConfiguration(prefs.getString("language", "System Default"));
+        Configuration locale = SettingsUtils.createLocaleConfiguration(prefs.getString(Constants.PREF_LANGUAGE, Constants.DEFAULT_LANGUAGE));
         this.packages = new ArrayList<>(all_packages.size());
         updater.updateMax(all_packages.size());
         updater.update(0);
