@@ -22,10 +22,6 @@ public class ActivityLauncherApp extends Application {
             prefs.edit().putBoolean(Constants.PREF_ALLOW_ROOT, hasSU).apply();
         }
 
-        if (!prefs.contains(Constants.PREF_HIDE_HIDE_PRIVATE)) {
-            prefs.edit().putBoolean(Constants.PREF_HIDE_HIDE_PRIVATE, false).apply();
-        }
-
         if (!prefs.contains(Constants.PREF_LANGUAGE)) {
             prefs.edit().putString(Constants.PREF_LANGUAGE, "System Default").apply();
         }

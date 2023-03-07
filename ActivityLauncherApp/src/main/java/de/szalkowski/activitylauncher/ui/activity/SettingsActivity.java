@@ -45,7 +45,6 @@ public class SettingsActivity extends AppCompatActivity {
             setPreferencesFromResource(R.xml.preferences, rootKey);
             this.prefs = PreferenceManager.getDefaultSharedPreferences(requireActivity().getBaseContext());
 
-            SwitchPreference hidePrivate = Objects.requireNonNull(findPreference(Constants.PREF_HIDE_PRIVATE));
             SwitchPreference allowRoot = Objects.requireNonNull(findPreference(Constants.PREF_ALLOW_ROOT));
             ListPreference theme = Objects.requireNonNull(findPreference(Constants.PREF_THEME));
             ListPreference languages = Objects.requireNonNull(findPreference(Constants.PREF_LANGUAGE));
@@ -55,7 +54,6 @@ public class SettingsActivity extends AppCompatActivity {
 
             populateLanguages(languages);
 
-            hidePrivate.setOnPreferenceChangeListener((preference, newValue) -> onHidePrivateUpdated((Boolean) newValue));
             allowRoot.setOnPreferenceChangeListener((preference, newValue) -> onAllowRootUpdated((Boolean) newValue));
             theme.setOnPreferenceChangeListener((preference, newValue) -> onThemeUpdated((String) newValue));
             languages.setOnPreferenceChangeListener((preference, newValue) -> onLanguageUpdated((String) newValue));
@@ -85,11 +83,6 @@ public class SettingsActivity extends AppCompatActivity {
         private boolean onThemeUpdated(String newValue) {
             this.prefs.edit().putString(Constants.PREF_THEME, newValue).apply();
             SettingsUtils.setTheme(newValue);
-            return true;
-        }
-
-        private boolean onHidePrivateUpdated(boolean newValue) {
-            this.prefs.edit().putBoolean(Constants.PREF_HIDE_PRIVATE, newValue).apply();
             return true;
         }
 

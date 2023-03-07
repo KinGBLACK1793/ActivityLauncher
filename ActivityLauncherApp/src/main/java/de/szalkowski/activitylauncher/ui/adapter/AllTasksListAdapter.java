@@ -66,7 +66,7 @@ public class AllTasksListAdapter extends BaseExpandableListAdapter implements Fi
         }
 
         Collections.sort(this.packages);
-        this.filtered = createFilterView("", this.prefs.getBoolean("hide_hide_private", true));
+        this.filtered = createFilterView("", this.prefs.getBoolean(Constants.PREF_HIDE_PRIVATE, true));
     }
 
     private List<MyPackageView> createFilterView(String query, boolean hidePrivate) {
@@ -189,7 +189,7 @@ public class AllTasksListAdapter extends BaseExpandableListAdapter implements Fi
         return new Filter() {
             @Override
             protected FilterResults performFiltering(CharSequence constraint) {
-                List<MyPackageView> result = createFilterView(constraint.toString(), prefs.getBoolean(Constants.PREF_HIDE_HIDE_PRIVATE, true));
+                List<MyPackageView> result = createFilterView(constraint.toString(), prefs.getBoolean(Constants.PREF_HIDE_PRIVATE, true));
                 FilterResults wrapped = new FilterResults();
                 wrapped.values = result;
                 wrapped.count = result.size();
