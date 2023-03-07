@@ -1,4 +1,4 @@
-package de.szalkowski.activitylauncher.constant;
+package de.szalkowski.activitylauncher.data;
 
 public class Constants {
     public static final String DEFAULT_LANGUAGE = "System Default";

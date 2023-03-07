@@ -10,7 +10,7 @@ import androidx.fragment.app.DialogFragment;
 import androidx.preference.PreferenceManager;
 
 import de.szalkowski.activitylauncher.R;
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Constants;
 
 public class DisclaimerDialogFragment extends DialogFragment {
     @NonNull

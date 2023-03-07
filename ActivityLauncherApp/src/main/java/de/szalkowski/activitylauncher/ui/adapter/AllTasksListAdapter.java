@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Constants;
 import de.szalkowski.activitylauncher.util.SettingsUtils;
 import de.szalkowski.activitylauncher.async.AllTasksListAsyncProvider;
 import de.szalkowski.activitylauncher.databinding.AllActivitiesChildItemBinding;

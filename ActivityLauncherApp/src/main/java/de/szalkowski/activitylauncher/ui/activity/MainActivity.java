@@ -15,15 +15,14 @@ import android.widget.Filter;
 import android.widget.Filterable;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.cursoradapter.widget.SimpleCursorAdapter;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceManager;
 
-import de.szalkowski.activitylauncher.Db;
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Db;
+import de.szalkowski.activitylauncher.data.Constants;
 import de.szalkowski.activitylauncher.ui.fragment.AllTasksListFragment;
 import de.szalkowski.activitylauncher.ui.fragment.dialog.DisclaimerDialogFragment;
 import de.szalkowski.activitylauncher.R;

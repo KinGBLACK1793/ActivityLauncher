@@ -6,7 +6,6 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
@@ -17,7 +16,7 @@ import java.util.Objects;
 
 import de.szalkowski.activitylauncher.R;
 import de.szalkowski.activitylauncher.manager.PackageManagerCache;
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Constants;
 import de.szalkowski.activitylauncher.util.RootDetection;
 import de.szalkowski.activitylauncher.util.SettingsUtils;
 

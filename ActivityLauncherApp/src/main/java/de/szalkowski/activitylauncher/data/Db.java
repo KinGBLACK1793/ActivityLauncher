@@ -1,4 +1,4 @@
-package de.szalkowski.activitylauncher;
+package de.szalkowski.activitylauncher.data;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -24,7 +24,7 @@ import org.thirdparty.IconCreator;
 
 import java.util.Objects;
 
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Constants;
 import de.szalkowski.activitylauncher.util.IconLoader;
 import de.szalkowski.activitylauncher.R;
 import de.szalkowski.activitylauncher.util.SettingsUtils;

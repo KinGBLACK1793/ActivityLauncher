@@ -6,7 +6,7 @@ import androidx.preference.PreferenceManager;
 
 import de.szalkowski.activitylauncher.util.RootDetection;
 import de.szalkowski.activitylauncher.util.SettingsUtils;
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Constants;
 
 public class ActivityLauncherApp extends Application {
 

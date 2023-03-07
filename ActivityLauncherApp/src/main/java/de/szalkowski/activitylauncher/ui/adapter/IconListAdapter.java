@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.TreeSet;
 
-import de.szalkowski.activitylauncher.constant.Constants;
+import de.szalkowski.activitylauncher.data.Constants;
 import de.szalkowski.activitylauncher.util.IconLoader;
 import de.szalkowski.activitylauncher.util.SettingsUtils;
 import de.szalkowski.activitylauncher.async.IconListAsyncProvider;
