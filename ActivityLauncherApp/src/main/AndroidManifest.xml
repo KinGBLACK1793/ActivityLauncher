@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="de.szalkowski.activitylauncher.rustore_fork"
     android:installLocation="preferExternal"
-    android:versionCode="136"
+    android:versionCode="137"
     android:versionName="1.14.6+">
 
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
