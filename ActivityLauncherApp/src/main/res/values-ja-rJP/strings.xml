@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
     <string name="short_description">非表示のアクティビティを起動し、インストールされたアプリのショートカットを作成します</string>
     <string name="title_section_all">すべてのアクティビティ</string>
     <string name="title_dialog_disclaimer">免責事項</string>

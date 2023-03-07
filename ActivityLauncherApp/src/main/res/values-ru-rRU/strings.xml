@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher fork</string>
     <string name="short_description">Запускает скрытые действия и создает ярлыки для установленных приложений</string>
     <string name="title_section_all">Все действия</string>
     <string name="title_dialog_disclaimer">Отказ от ответственности</string>

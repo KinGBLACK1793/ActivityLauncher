@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
     <string name="short_description">Åbner skjulte aktiviteter og opretter genveje til installerede apps</string>
     <string name="title_section_all">Alle aktiviteter</string>
     <string name="title_dialog_disclaimer">Ansvarsfraskrivelse</string>

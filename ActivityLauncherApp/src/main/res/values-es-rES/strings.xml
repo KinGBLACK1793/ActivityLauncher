@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
     <string name="short_description">Ejecuta activities ocultas y crea accesos directos en la pantalla de inicio</string>
     <string name="title_section_all">Todas las actividades</string>
     <string name="title_dialog_disclaimer">Términos de Uso</string>

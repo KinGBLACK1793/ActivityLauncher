@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
     <string name="short_description">Khởi chạy hoạt động ẩn và tạo lối tắt cho ứng dụng được cài đặt</string>
     <string name="title_section_all">Tất cả các ứng dụng</string>
     <string name="title_dialog_disclaimer">Miễn trừ trách nhiệm</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
     <string name="short_description">Inicia atividades ocultas e cria atalhos para as aplicações instaladas</string>
     <string name="title_section_all">Todas as atividades</string>
     <string name="title_dialog_disclaimer">Aviso</string>

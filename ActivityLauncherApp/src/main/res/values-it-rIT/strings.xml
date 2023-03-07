@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
     <string name="short_description">Avvia le attività nascoste e crea collegamenti nella schermata home</string>
     <string name="title_section_all">Tutte le Attività</string>
     <string name="title_dialog_disclaimer">Dichiarazione di non responsabilità</string>

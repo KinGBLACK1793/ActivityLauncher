@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Launcher</string>
+    <string name="app_name" translatable="false">Activity Launcher fork</string>
+
     <string name="short_description">Launches hidden activities and creates shortcuts for installed apps</string>
     <string name="title_section_all">All activities</string>
     <string name="title_dialog_disclaimer">Disclaimer</string>
