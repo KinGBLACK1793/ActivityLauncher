@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.net.URISyntaxException;
 
-public class ShortcutActivity extends AppCompatActivity {
+public class ShortcutActivity extends BaseActivity {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

@@ -31,7 +31,7 @@ import de.szalkowski.activitylauncher.util.SettingsUtils;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     private static final int SEARCH_QUERY_THRESHOLD = 2;
 
     private SharedPreferences prefs;

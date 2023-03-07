@@ -11,7 +11,7 @@ import org.thirdparty.Launcher;
 import de.szalkowski.activitylauncher.R;
 import de.szalkowski.activitylauncher.util.Signer;
 
-public class RootLauncherActivity extends AppCompatActivity {
+public class RootLauncherActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
