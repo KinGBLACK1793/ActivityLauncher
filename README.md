@@ -7,6 +7,12 @@ Activity Launcher fork
 <a href="https://apps.rustore.ru/app/de.szalkowski.activitylauncher.rustore_fork" target="_blank">
 <img src="images/rustore.png" width="188" height="63" alt="Скачайте из RuStore"/></a>
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/de.szalkowski.activitylauncher.rustore_fork/)
+
+Or get the latest APK from the [Releases Section](https://github.com/Sash0k/ActivityLauncher/releases/latest).
+
 Fork features
 ------------
 * minSdkVersion 23 (Android 6.0+)
