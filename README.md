@@ -1,3 +1,5 @@
+### Archived here. Project development has been continued in [GitFlic](https://gitflic.ru/project/sash0k/activitylauncher)
+
 Activity Launcher fork
 =================
 <img src="images/1.png" width="300"> <img src="images/3.png" width="300">
@@ -10,8 +12,6 @@ Activity Launcher fork
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/de.szalkowski.activitylauncher.rustore_fork/)
-
-Or get the latest APK from the [Releases Section](https://github.com/Sash0k/ActivityLauncher/releases/latest).
 
 Fork features
 ------------
